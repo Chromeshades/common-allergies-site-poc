@@ -1,0 +1,47 @@
+.allergy-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.allergy-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #666;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    color: #333;
+}
+
+.symptoms-list {
+    list-style: disc;
+    margin-left: 20px;
+    color: #666;
+}
+
+.description, .treatment {
+    line-height: 1.6;
+    color: #444;
+}
+
+.hover-shadow {
+    transition: all 0.3s ease-in-out;
+}
+
+.hover-shadow:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card {
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.1);
+}

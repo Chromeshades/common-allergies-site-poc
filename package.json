@@ -1,0 +1,39 @@
+{
+  "name": "allergy-display-site",
+  "version": "1.0.0",
+  "description": "A web application to display common allergy data using common-allergies-js.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "CI=true jest --watchAll=false --detectOpenHandles --forceExit"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "common-allergies-js": "^1.0.3",
+    "css-loader": "^7.1.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.4.0",
+    "style-loader": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/plugin-transform-runtime": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^14.2.1",
+    "@testing-library/user-event": "^14.6.1",
+    "babel-loader": "^8.2.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
