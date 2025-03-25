@@ -2,6 +2,10 @@
 
 A web application to display common allergy data using the `common-allergies-js` npm package.
 
+<img width="1363" alt="image" src="https://github.com/user-attachments/assets/11b48cea-9322-4234-9e3e-a734ac0fdcc8" />
+<img width="1435" alt="image" src="https://github.com/user-attachments/assets/392b1e1d-32b0-4267-a259-900f667c3ef8" />
+
+
 ## Features
 
 - Displays a comprehensive list of common allergies
